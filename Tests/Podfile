@@ -1,6 +1,8 @@
 xcodeproj 'Plaid Tests'
 workspace '../Plaid'
 
+use_frameworks!
+
 target :ios do
   platform :ios, '7.0'
   pod 'OCMock'
